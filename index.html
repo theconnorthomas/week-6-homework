@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="./assets/style/images/b-w:-background.png" />
+    <title>Booyh</title>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <h1 id="title">Booyh the Gif Generator</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <!-- <form id="animal-form">
+                <label for="animal-input"></label>
+                <input type="text" id="aminal-input" value="Add your favorite animal">
+
+                Button triggers new movie to be added
+                <input id="add-animal" type="submit" value="Submit" class="btn btn-primary btn-lg">
+            </form> -->
+            <div class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="text" class="form-control" id="add-animal" placeholder="Add an animal">
+                </div>
+                <button class="btn btn-primary btn-lg btn-block" id="addButton">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div id="buttons-appear-here"></div>
+            <br>
+            <div id="gifs-appear-here"></div>
+        </div>
+    </div>
+
+    <script src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>

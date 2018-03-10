@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 7em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.animal {
+    margin: .5em;
+    font-size: 2em;
+}
+
+.form-inline {
+    width: 80%;
+    margin: 0 auto 5px auto;
+}
